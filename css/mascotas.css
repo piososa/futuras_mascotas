@@ -1,0 +1,43 @@
+
+
+
+.a{
+    width:;
+    height: ;
+	float:left,inherit;
+	
+}
+body{
+	background: #F3CC75;
+}
+
+.b{
+font-family: 'Patrick Hand', cursive;	
+}
+.center{
+    text-align: center;
+	background-color: #787;
+}
+
+h2 {
+font-size: 36px;
+color: #F3CC75;
+font-family: 'Patrick Hand', cursive;
+}
+p {
+font-family: 'Patrick Hand', cursive;
+font-size: 14px;
+color: #000000;
+line-height: 50px;
+margin-bottom: 123px;
+}
+
+.padre
+{
+	height: 550px;
+	width: 300px;
+	text-align: center;
+	margin: 2rem auto;
+
+
+}

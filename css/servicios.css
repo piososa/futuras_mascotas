@@ -1,0 +1,80 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+main {
+    padding: 1em;
+    text-align: center;
+}
+
+h1{
+    text-shadow: 0.08em 0.03em #333;
+    color: #FA8F60;
+    font-size: 65px;
+    letter-spacing: 5px;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+
+
+.container .card{
+    cursor:pointer;
+    display: inline-block;
+	background-color: #c69b7c;
+    color: #5A5550;
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h2{
+    font-weight: 600;
+    text-shadow: 0.03em 0.03em #333;
+}
+
+.card .service{
+    padding: 0 1rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+.container .card i{
+    color: #625D57;
+    font-size: 16px;
+}
+.container .card i:hover{
+    color: #8E867E;
+}
+
+.card .mascotas{
+    font-size: 20px;
+}
